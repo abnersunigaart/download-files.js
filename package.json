@@ -19,7 +19,7 @@
     "start": "npm run build && node build/index.js",
     "start:dev": "npx nodemon",
     "build": "rimraf ./build && tsc",
-    "test": "jest --coverage",
+    "test": "jest",
     "test:dev": "jest --watchAll"
   },
   "keywords": [],
